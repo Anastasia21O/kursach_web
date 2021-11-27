@@ -1,4 +1,8 @@
 # Build and Release Folders
+/.idea/workspace.xml
+/node_modules
+/.idea
+
 bin-debug/
 bin-release/
 [Oo]bj/

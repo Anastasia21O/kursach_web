@@ -1,0 +1,109 @@
+@import "variable.sass"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+body
+  margin: 0
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  height: 100%
+
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+
+.header-inner
+  background: url($url_background_header)
+  display: flex
+  align-items: center
+  justify-content: center
+
+
+.logo
+  color: $color_logo
+
+.owl-theme
+  margin: 20px 0
+
+.item
+  background: $color_background_item
+
+.images-container
+  display: flex
+  flex-wrap: wrap
+  gap: 20px
+  padding: 20px 0
+
+
+.news-container
+  display: grid
+  grid-template-columns: 1fr 1fr
+  gap: 20px
+  padding: 20px 0
+
+
+.img
+  max-width: 450px
+
+
+.nav-link
+  color: $color_nav-link !important
+  text-decoration: none
+
+
+.iframe
+  border: 0
+  width: 600px
+  height: 450px
+
+
+.content
+  min-height: calc(100vh - 30px)
+
+
+.footer
+  background: $color_background_footer
+  height: 30px
+
+
+.virsta-images
+  height: 200px
+  width: 200px
+
+
+.virsta-images2
+  height: 400px
+  width: 600px
+
+
+.line-my
+  background: $color_background_line-my
+  width: 100%
+  height: 10px
+
+.container
+  max-height: 650px
+
+
+.menu
+  background: url($url_background_menu)
+
+.virsta-div-home
+  height: 4400px
+
+.virsta-div-gallery
+  height: 2900px
+
+.virsta-div-news
+  height: 4000px
+
+.virsta-div-contacts
+  height: 1050px
+
+.virsta-div-about
+  height: 700px
